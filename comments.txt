@@ -1,0 +1,16 @@
+// create app
+npm create vite@latest ./
+
+npm install
+
+//run the app
+npm run dev
+
+// install tailwind
+npm install tailwindcss @tailwindcss/vite
+
+//download icons
+npm install react-icons --save
+
+//animation 
+npm install @gsap/react gsap
