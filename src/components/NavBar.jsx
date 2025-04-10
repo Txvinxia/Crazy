@@ -32,7 +32,7 @@ const NavBar = () => {
     gsap.to(navContainerReference.current, {
       y: isNavVisible ? 0 : -100,
       opacity: isNavVisible ? 1 : 0,
-      duration: 0.3,
+      duration: 0.15,
     });
   }, [isNavVisible]);
   const toggleAudioIndicator = () => {
