@@ -77,7 +77,7 @@ const Hero = () => {
   const getVideoSource = (index) => `videos/hero-${index}.mp4`;
 
   return (
-    <div className="relative h-dvh w-screen overflow-x-hidden">
+    <div className="relative h-dvh w-screen overflow-x-hidden ">
       {isLoading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
           <div className="three-body">
@@ -127,12 +127,12 @@ const Hero = () => {
             onLoadedData={handleVideoLoad}
           />
         </div>
-        <h1 className="font-[zentry] hero-heading absolute bottom-5 right-5 z-40 text-blue-100 special-font">
+        <h1 className="font-[zentry]  hero-heading absolute bottom-5 right-5 z-40 text-blue-100 special-font">
           Gaming
         </h1>
-        <div className="absolute left-0 top-0 z-40 size-full">
+        <div className="absolute left-0 top-0 z-40 size-full ">
           <div className="mt -24 px-5 sm:px-10">
-            <h1 className="special-font hero-heading text-blue-100">
+            <h1 className="special-font hero-heading mix-blend-difference text-blue-100">
               redefi<b>n</b>e
             </h1>
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
