@@ -18,3 +18,5 @@ npm install @gsap/react gsap
 
 npm i react-use
 
+// deploy
+npm run build
